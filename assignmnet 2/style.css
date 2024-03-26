@@ -1,0 +1,105 @@
+
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: url(background.jpg);
+	font-size: 75%;
+	font-family: Bookman Old Style, sans-serif;
+	letter-spacing: 0.15em;	
+	background-color: #ec9898;}
+#page {
+	max-width: 940px;
+	min-width: 720px;
+	margin: 5px auto;
+	padding: 20px;
+	border: 4px double #000;
+	background-color: #e3ccb2;}
+#logo {
+	padding: 0px;
+	float: center;
+	}
+ul {
+	width: 650px;
+	padding: 15px;
+	margin: 0 auto;
+	border-top: 2px solid #000000;
+	border-bottom: 1px solid #000000;
+	text-align: center;}
+li {
+	display: inline;
+	margin: 0 auto;}
+#navigation a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 13px}
+
+#content
+{
+	width: 600px;
+	margin: 0 auto;}
+
+#footer{
+	text-align: center;
+	}
+	
+#contenttable {
+	width: 600px;
+	margin: 0 120;}
+	
+.button {
+	font-size: 14px;
+	padding: 14px 40px;
+	border-radius: 12px;
+	text-align: center;
+	cursor: pointer;
+	margin: 4px 2px;
+	background-color: #e26274;
+	border: none;
+	color: blue;
+	transition-duration: 0.2s
+}
+.button1{
+	background-color: #e26274;
+	color: white;
+	border: 2px solid #f9ec7e;
+}
+.button1:hover{
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover{
+	background: rgba(0,0,0,0);
+	color: #e26274;
+	box-shadow: inset 0 0 0  3px #e26274;
+}
+	
+figure {
+	padding-top: 10px;
+	width: 600px;
+	margin: 0 auto;}
+	
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 175px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
